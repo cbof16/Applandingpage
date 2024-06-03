@@ -1,5 +1,5 @@
 {
-  "name": "app_landing_page_finance_bank_money_(community)_(copy)",
+  "name": "app_landing_page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,8 +18,9 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o build/",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   }
+  
 }
