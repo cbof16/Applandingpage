@@ -1,0 +1,126 @@
+.adder,
+.adder1 {
+  position: absolute;
+  top: 14.831rem;
+  left: 24.55rem;
+  background-color: var(--color-black);
+  width: 0.081rem;
+  height: 4.45rem;
+  z-index: 1;
+}
+.adder1 {
+  left: 19.894rem;
+  z-index: 2;
+}
+.decoderIcon,
+.frameChild {
+  position: absolute;
+  z-index: 1;
+}
+.frameChild {
+  top: 14.288rem;
+  left: 4rem;
+  width: 3.525rem;
+  height: 3.569rem;
+  object-fit: contain;
+}
+.decoderIcon {
+  top: 15.156rem;
+  left: 7.938rem;
+  width: 2.613rem;
+  height: 2.613rem;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.freeTrial,
+.makeTheBest,
+.uifryPremium {
+  position: absolute;
+  text-transform: capitalize;
+}
+.makeTheBest {
+  margin: 0;
+  top: 13.523rem;
+  left: 4.55rem;
+  line-height: 1.144rem;
+  font-weight: 600;
+  transform: rotate(-45.7deg);
+  transform-origin: 0 0;
+  z-index: 4;
+}
+.freeTrial,
+.uifryPremium {
+  left: 12.594rem;
+  line-height: 1.188rem;
+  z-index: 6;
+}
+.uifryPremium {
+  top: 15.238rem;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 5.375rem;
+}
+.freeTrial {
+  text-decoration: none;
+  top: 16.463rem;
+  font-size: var(--font-size-2xs-5);
+  font-weight: 500;
+  color: inherit;
+}
+.vectorParent {
+  position: absolute;
+  top: 0.613rem;
+  left: 13.019rem;
+  width: 18.594rem;
+  height: 18.913rem;
+}
+.executionUnit {
+  position: absolute;
+  top: calc(50% + 93.89px);
+  left: calc(50% - 252.65px);
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--color-black);
+  width: 33.394rem;
+  height: 4.463rem;
+  transform: rotate(-28deg);
+  transform-origin: 0 0;
+}
+.frameInner,
+.memoryMapIcon {
+  position: absolute;
+  object-fit: contain;
+}
+.frameInner {
+  top: calc(50% - 127.35px);
+  left: calc(50% - 222.55px);
+  width: 27.5rem;
+  height: 16.1rem;
+  z-index: 1;
+}
+.memoryMapIcon {
+  top: 2.831rem;
+  left: 5.213rem;
+  width: 4.244rem;
+  height: 4.244rem;
+  z-index: 8;
+}
+.adderParent {
+  position: absolute;
+  top: 32.731rem;
+  left: 12.35rem;
+  width: 31.581rem;
+  height: 19.619rem;
+  z-index: 5;
+  text-align: left;
+  font-size: var(--font-size-xs-8);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
